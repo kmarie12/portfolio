@@ -96,7 +96,7 @@ a:visited { color: #205caa; }
 
 /* Site footer */
 
-.site-footer {
+/*.site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
 }
@@ -112,45 +112,7 @@ a:visited { color: #205caa; }
 
 .footer-col-1 {
   width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
-  margin-right: 10px
-}
-.footer-col-2 {
-  width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
-  margin-right: 10px
-}
-.footer-col-3 {
-  width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
-}
-
-.site-footer ul { list-style: none; }
-
-.site-footer li,
-.site-footer p {
-  font-size: 15px;
-  letter-spacing: -.3px;
-  color: #828282;
-}
-
-.github-icon-svg,
-.twitter-icon-svg {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  position: relative;
-  top: 3px;
-}*/
+  /*/
 
 
 /* From Sample CSS */
@@ -364,6 +326,114 @@ body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: none;
     -webkit-font-smoothing: antialiased;*/
+
+  /*-----More things. I don't even know anymore------*/
+    .header { border-bottom: solid 1px #e1e1e1; }
+  .header .go,
+  .dropmenu .social li,
+  .dropmenu .menu li,
+  .more a,
+  .postnav li,
+  .footer .legal,
+  .footer .credit,
+  .footer .social {
+    line-height: 86px;
+  }
+  .header .container,
+  .push,
+  footer,
+  .footer { 
+    height: 86px;
+  }
+  .header .logo h1 {
+    padding: 20px 0;
+  }
+  .header .logo a {
+    display: inline-block;
+  }
+  .header .logo a span { 
+    background: url(../RCO/Resources/Images/Logos/rco-logo-b-60.png) no-repeat 0 0;
+    display: block;
+    width: 62px;
+    height: 46px;
+  }
+  .header .go { 
+    font-size: 18px;
+    text-align: right;
+  }
+  .dropmenu {
+    display: none;
+    border-bottom: solid 1px #e1e1e1;
+  }
+  .dropmenu .menu { 
+    float: left;
+  }
+  .dropmenu .menu li {
+    text-align: left;
+    float: left;
+  }
+  .dropmenu .menu li a {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .dropmenu .social {
+    display: none;
+  }
+  .dropmenu .social li {
+    text-align: center;
+  }
+  .dropmenu .social a {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    border-left: solid 1px #e1e1e1;
+  }
+  .dropmenu .social li.I a,
+  .dropmenu .social li.T a {
+    border-bottom: solid 1px #e1e1e1;
+  }
+  
+  .dropmenu .social,
+  .dropmenu #mc_embed_signup {
+    float: right;
+  }
+  .dropmenu #mc_embed_signup {
+    margin: 20px 0 0;
+  }
+  .dropmenu .address,
+  .dropmenu .send {
+    float: left;
+  } 
+  
+  .dropmenu .address #mce-EMAIL,
+  .footer .legal {
+    font-size: 12px;
+  }
+  
+  .dropmenu .address #mce-EMAIL,
+  .dropmenu .send #mc-embedded-subscribe {
+    width: 100%;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none !important;
+    box-shadow: none !important;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    border: solid 1px #e1e1e1;
+  }
+  .dropmenu .address #mce-EMAIL {
+    text-indent: 10px;
+    border-right: none;
+  }
+  .dropmenu .send #mc-embedded-subscribe {
+    font-size: 14px;
+  }
 }
 /*-------Makes Everything Disappear----*/
 /*:focus {
@@ -542,7 +612,7 @@ body.notouch .project.meta .share a:hover {
   
   .col75 { width: 75%; } .col66 { width: 66.66%; } .col50 { width: 50%; } .col33 { width: 33.33%; } .col25 { width: 25%; } 
   .postnav li.col33, .dropmenu .social, .dropmenu #mc_embed_signup { width: 33%; }
-  .col34 { width: 34%; }
+  .col34 { width: 34%; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
   .dropmenu .menu { width: 67%; }
 
 .posts .container .inner {
@@ -751,6 +821,9 @@ body.notouch .project.meta .share a:hover {
   color: #818181;
 }
 
+/*------More Post--------*/
+
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -912,6 +985,53 @@ body.notouch .project.meta .share a:hover {
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+/*---Footer---------*/
+.footer {
+    border-top: solid 1px #e1e1e1;
+  }
+  .footer .social a,
+  .footer .social .fauxlink {
+    text-align: center;
+    font-size: 16px;
+    display: block;
+  }
+  .footer .social ul {
+    border-left: solid 1px #e1e1e1;
+  }
+  .footer .social a,
+  .footer .social .fauxlink {
+    margin: 0 1px 0 0;
+  }
+  .footer .social .I a {
+    margin: 0 1px 0 0;
+  }
+
+  /*---------More from sample to sift through--------*/
+.header { border-bottom: solid 1px #e1e1e1; }
+  .header .go,
+  .dropmenu .social li,
+  .dropmenu .menu li,
+  .more a,
+  .postnav li,
+  .footer .legal,
+  .footer .credit,
+  .footer .social {
+    line-height: 86px;
+  }
+  .header .container,
+  /*.push,*/
+  footer,
+  .footer { 
+    height: 86px;
+  }
+  .header .logo h1 {
+    padding: 20px 0;
+  }
+  .header .logo a {
+    display: inline-block;
+  }
+
 
 
 /* media queries */
