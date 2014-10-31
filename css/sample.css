@@ -49,8 +49,8 @@ Version: 1.1
 	.more .inner div, .postnav li, .footer .social { background-color: #e1e1e1; }
 	body.notouch .project.meta .share a:hover { background-color: #bbbbbb; }
 	
-	.col75 { width: 75%; } .col66 { width: 66.66%; } .col50 { width: 50%; } .col33 { width: 33.33%; } .col25 { width: 25%; } 
-	.postnav li.col33, .dropmenu .social, .dropmenu #mc_embed_signup { width: 33%; }
+	.col75 { width: 75%; } .col66 { width: 66.66%; } .col50 { width: 50%; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; } .col33 { width: 33.33%; } .col25 { width: 25%; } 
+	.postnav li.col33, .dropmenu .social, .dropmenu #mc_embed_signup { width: 33%; font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 	.col34 { width: 34%; }
 	.dropmenu .menu { width: 67%; }
 	
@@ -80,9 +80,9 @@ Version: 1.1
 		display: inline-block;
 	}
 	.header .logo a span { 
-		background: url(../RCO/Resources/Images/Logos/rco-logo-b-60.png) no-repeat 0 0;
+		background: url(http://i.imgur.com/57KwEVF.png) no-repeat 0 0;
 		display: block;
-		width: 62px;
+		width: 290px;
 		height: 46px;
 	}
 	.header .go { 
