@@ -54,7 +54,9 @@ Version: 1.1
 	.col34 { width: 34%; }
 	.dropmenu .menu { width: 67%; }
 	
-	
+	.post .scrollitem{
+		height: 500px;
+	}
 	
 	.header { border-bottom: solid 1px #e1e1e1; }
 	.header .go,
