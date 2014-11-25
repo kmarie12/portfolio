@@ -90,6 +90,9 @@ Version: 1.1
 	.header .go { 
 		font-size: 18px;
 		text-align: right;
+		padding-top:10px;
+		/*background: url(http://i.imgur.com/wz018oc.png);*/
+		
 	}
 	.dropmenu {
 		display: none;
@@ -190,10 +193,11 @@ Version: 1.1
 	}
 	.posts .post a .wrap {
 		position: relative;
+		padding:0px, 0px;
 	}
 	.posts .post.latest .wrap,
 	.posts .post.latebig .wrap /*hack for extra height*/ {
-		padding-bottom: 3px;
+		/*padding-bottom: 3px;*/
 	}
 	.posts .post a img {
 		width: 100%;
